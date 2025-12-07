@@ -4,7 +4,7 @@ This is a simple, minimal implementation of finite field arithmetic in TypeScrip
 ## Why?
 There is surprisingly little information on all aspects of the "cryptographic stack" in JavaScript and elsewhere that is simple and minimal. This repository is part of a series of repositories that builds up this stack from first principles, including:
 - Finite field arithmetic (this repository)
-- Elliptic curves over finite fields
+- [Elliptic curves over finite fields](https://github.com/bradthomasbrown/finite-curve)
 - Sponge constructions
 - Keccak
 - The concrete instances of secp256k1, Keccak-256, and more as well as how these are made from the above concepts
@@ -19,7 +19,7 @@ npm i @bradthomasbrown/finite-field
 
 ## Usage
 ```js
-import { FiniteField } from "finite-field";
+import { FiniteField } from "@bradthomasbrown/finite-field";
 
 const p = 7;
 const q =
