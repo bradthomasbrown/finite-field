@@ -14,7 +14,7 @@ There is surprisingly little information on all aspects of the "cryptographic st
 
 ## Installation
 ```sh
-npm i finite-field
+npm i @bradthomasbrown/finite-field
 ```
 
 ## Usage
