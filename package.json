@@ -3,9 +3,6 @@
     "description": "Minimal, unoptimized, and unaudited finite field library in JavaScript/TypeScript.",
     "version": "1.0.1",
     "author": "Brad Brown <https://t.me/bradthomasbrown>",
-    "devDependencies": {
-        "typescript": "^5.9.3"
-    },
     "type": "module",
     "files": [
         "dist/"
