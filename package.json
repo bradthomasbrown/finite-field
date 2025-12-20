@@ -1,7 +1,7 @@
 {
     "name": "@bradthomasbrown/finite-field",
     "description": "Minimal, unoptimized, and unaudited finite field library in JavaScript/TypeScript.",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "author": "Brad Brown <https://t.me/bradthomasbrown>",
     "type": "module",
     "scripts": {
