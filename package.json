@@ -4,10 +4,17 @@
     "version": "1.1.0",
     "author": "Brad Brown <https://t.me/bradthomasbrown>",
     "type": "module",
+    "scripts": {
+        "test": "bun test.ts",
+        "prepublishOnly": "npm test"
+    },
     "files": [
         "dist/"
     ],
     "exports": {
         ".": "./dist/finite-field.js"
+    },
+    "devDependencies": {
+        "ff1": "npm:@bradthomasbrown/finite-field@^1.1.0"
     }
 }
