@@ -1,4 +1,4 @@
-type FiniteField = ReturnType<typeof _7c3dda_>;
+type FiniteField = InstanceType<ReturnType<typeof _7c3dda_>>;
 
 function _7c3dda_(
     sqrt:(
