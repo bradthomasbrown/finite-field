@@ -1,15 +1,17 @@
+import type { FiniteField as TFiniteField } from "../finite-field.js";
+
 import { _7c3dda_ } from "../finite-field.js";
 
 // Note: This function assumes the order of the field is equivalent to 3 mod 4 and that value `a` is a quadratic residue over the finite field of order `p`.
 function sqrt_p3mod4(
-    power:(p:bigint|number, b:bigint|number, e:bigint|number)=>bigint,
+    F:TFiniteField,
     p:bigint|number,
     a:bigint|number
 ):bigint {
     p = BigInt(p);
     a = BigInt(a);
     const e = p + 1n >> 2n;
-    return power(p, a, e);
+    return F.power(a, e);
 }
 
 /**
