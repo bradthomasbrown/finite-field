@@ -22,7 +22,7 @@ function _7c3dda_(
         constructor(p:number)
         constructor(p:bigint|number) {
             this.p = BigInt(p);
-            this.sqrt = (a) => sqrt(this, p, a);
+            this.sqrt = (a) => sqrt(this, a);
         }
 
         /**
