@@ -1,3 +1,5 @@
+type FiniteField = ReturnType<typeof _7c3dda_>;
+
 function _7c3dda_(
     sqrt:(
         power:(
@@ -207,5 +209,7 @@ function _7c3dda_(
 
     };
 }
+
+export type { FiniteField }
 
 export { _7c3dda_ };
