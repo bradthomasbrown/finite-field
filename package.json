@@ -6,13 +6,15 @@
     "type": "module",
     "scripts": {
         "test": "bun test.ts",
-        "prepublishOnly": "npm test"
+        "bump-patch": "npm version patch && git push && npm publish --access=public",
+        "prepublishOnly": "npm test && tsc"
     },
     "files": [
         "dist/"
     ],
     "exports": {
-        ".": "./dist/finite-field.js"
+        ".": "./dist/finite-field.js",
+        "./p3mod4": "./dist/p3mod4/finite-field.js"
     },
     "devDependencies": {
         "ff1": "npm:@bradthomasbrown/finite-field@^1.1.0"
