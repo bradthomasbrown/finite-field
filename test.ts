@@ -1,5 +1,5 @@
 import { FiniteField as FiniteField1 } from "ff1";
-import { FiniteField as FiniteField2 } from "./src/p3mod4/finite-field.ts";
+import { FiniteField as FiniteField2 } from "@bradthomasbrown/finite-field/p3mod4";
 
 const p = 3 + 4 * 11
 const F1 = new FiniteField1(p);
