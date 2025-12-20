@@ -1,4 +1,4 @@
-import { _7c3dda_ } from "../finite-field.ts";
+import { _7c3dda_ } from "../finite-field.js";
 
 // Note: This function assumes the order of the field is equivalent to 3 mod 4 and that value `a` is a quadratic residue over the finite field of order `p`.
 function sqrt_p3mod4(
