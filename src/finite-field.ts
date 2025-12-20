@@ -1,15 +1,7 @@
 type FiniteField = InstanceType<ReturnType<typeof _7c3dda_>>;
 
 function _7c3dda_(
-    sqrt:(
-        power:(
-            p:bigint|number,
-            b:bigint|number,
-            e:bigint|number
-        )=>bigint,
-        p:bigint|number,
-        a:bigint|number
-    )=>bigint
+    sqrt:(...args:any[])=>bigint
 ) {
     return class FiniteField {
 
