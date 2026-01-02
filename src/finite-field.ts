@@ -165,6 +165,7 @@ function _7c3dda_(
             p = BigInt(p);
             a = BigInt(a);
             b = BigInt(b);
+            if (a == 0n && (b % p) != 0n) return 0n;
             const reciprocalB = FiniteField.reciprocal(p, b);
             return FiniteField.multiply(p, a, reciprocalB);
         }
